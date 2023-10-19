@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Montserrat:wght@400;600&family=Open+Sans:wght@500;600&family=Orbitron:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap'); */
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #252525;
+    background: #fcfcfc;
+    font-weight: 300;
+    display: grid;
+    justify-content: center;
+    padding: 3em 0;
+    background: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+}
+
+/* body{
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #252525;
+    background: #fcfcfc;
+    font-weight: 300;
+    display: grid;
+    justify-content: center;
+    padding: 3em 0;
+} */
+/* h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+} */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.main-scoreboard-container{
+    width: 100%;
+}
+.main-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    padding: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    background-color: salmon;
+    font-size: 14px;
+    /* box-shadow: 5px 5px grey; */
+}
+form input{
+    padding: 10px;
+    border: 2px solid salmon;
+}
+form button{
+    background-color: salmon;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.main_form-submit-btn {
+    all: unset;
+    width: 10em;
+    background: salmon;
+    padding: 0.7em 0;
+    transition: all .5s ease;
+}
+@media (min-width:35.25em){
+    .main_title{
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-variant: small-caps;
+        color: white;
+    }
+    .main_form{
+        display: flex;
+    }
+
+    .main_scoreboard{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    input{
+        width: 10em;
+    }
+
+}
+.main_scoreboard-btn-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.main-scoreboard button{
+    background-color: burlywood;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
